@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<PROJECT IID="" BUILDPATH="C:/Users/durga/AppData/Local/Temp/VSM Studio/35354198cdf2461dabc84d002e54e22c/80C51" VERSION="826" TYPE="SOURCE" NAME="80C51" CONFIGURATION="Debug">
+ <FILES ATTACH="1">
+  <FILE ATTACH="1" GROUP="Source Files" NAME="80C51/main.asm"/>
+  <FILE ATTACH="1" GROUP="Firmware Files" NAME="80C51/Debug/Debug.HEX" FIRMWARE="1"/>
+  <FILE ATTACH="1" GROUP="Firmware Files" NAME="80C51/Debug/Debug.SDI"/>
+ </FILES>
+ <CONFIGURATION CRC="eb9dfcbbd99032686f46372562e05176" TARGET="Debug" COMPILER="ASEM-51 (Proteus)" NAME="Debug">
+  <CONTROLLER FAMILY="8051" TYPE="80C51"/>
+  <FILE TOOL="ASM" NAME="80C51/Debug/Debug.HEX">
+   <FILE NAME="80C51/main.asm"/>
+  </FILE>
+ </CONFIGURATION>
+ <CONFIGURATION CRC="eb9dfcbbd99032686f46372562e05176" TARGET="Release" COMPILER="ASEM-51 (Proteus)" NAME="Release">
+  <CONTROLLER FAMILY="8051" TYPE="80C51"/>
+  <FILE TOOL="ASM">
+   <FILE NAME="80C51/main.asm"/>
+  </FILE>
+ </CONFIGURATION>
+</PROJECT>
